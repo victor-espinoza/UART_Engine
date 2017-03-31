@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\CECS 460\Labs\Lab 4 - Full UART\Full_UART_Engine\proj4_UART_Engine.ncd
+OUTFILE=F:\CECS 460\Labs\Lab 4 - Full UART\Full_UART_Engine\proj4_UART_Engine.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=F:\CECS 460\Labs\Lab 4 - Full UART\Full_UART_Engine
+LICENSE=WebPack
+USER_INFO=210745770_0_0_556

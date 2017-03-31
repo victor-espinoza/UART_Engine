@@ -1,0 +1,49 @@
+//Set the appropriate step and rstb
+//clk input
+NET "clk"        LOC="B8";
+
+//button inputs
+NET "rstb"	     LOC="B18";
+NET "tx"         LOC="P9";
+NET "Rx"         LOC="U6";
+//NET "rx"         LOC="V6";
+#NET "parity_en"  LOC="N17";
+#NET "odd_n_even" LOC="L13";
+#NET "bit8"       LOC="L14";
+NET "bit8"        LOC="N17";
+NET "parity_en"   LOC="L13";
+NET "odd_n_even"  LOC="L14";
+NET "baud_val[3]" LOC="K17";
+NET "baud_val[2]" LOC="K18";
+NET "baud_val[1]" LOC="H18";
+NET "baud_val[0]" LOC="G18";
+
+
+
+//annode and cathode info for the 7
+//segment display
+NET "a3" 	 				LOC="F15"| IOSTANDARD = LVCMOS33;
+NET "a2" 	 				LOC="C18"| IOSTANDARD = LVCMOS33;
+NET "a1" 	 				LOC="H17"| IOSTANDARD = LVCMOS33;
+NET "a0" 	 				LOC="F17"| IOSTANDARD = LVCMOS33;
+
+
+NET "a"    	 				LOC= "L18"| IOSTANDARD = LVCMOS33;
+NET "b"   	 				LOC= "F18"| IOSTANDARD = LVCMOS33;
+NET "c"    	 				LOC= "D17"| IOSTANDARD = LVCMOS33;
+NET "d"   	 				LOC= "D16"| IOSTANDARD = LVCMOS33;
+NET "e"   	 				LOC= "G14"| IOSTANDARD = LVCMOS33;
+NET "f"   	 				LOC= "J17"| IOSTANDARD = LVCMOS33;
+NET "g"   	 				LOC= "H14"| IOSTANDARD = LVCMOS33;
+
+
+
+NET "LED[7]"    	 		LOC= "R4"| IOSTANDARD = LVCMOS33;
+NET "LED[6]"   	 		LOC= "F4"| IOSTANDARD = LVCMOS33;
+NET "LED[5]"    	 		LOC= "P15"| IOSTANDARD = LVCMOS33;
+NET "LED[4]"   	 		LOC= "E17"| IOSTANDARD = LVCMOS33;
+NET "LED[3]"   	 		LOC= "K14"| IOSTANDARD = LVCMOS33;
+NET "LED[2]"   	 		LOC= "K15"| IOSTANDARD = LVCMOS33;
+NET "LED[1]"   	 		LOC= "J15"| IOSTANDARD = LVCMOS33;
+NET "LED[0]"   	 		LOC= "J14"| IOSTANDARD = LVCMOS33;
+

@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "F:/CECS 460/Labs/Lab 4 - Full UART/Full_UART_Engine/proj4_UART_Engine.xst" -ofn "F:/CECS 460/Labs/Lab 4 - Full UART/Full_UART_Engine/proj4_UART_Engine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IOPinAssignments.ucf -p xc3s500e-fg320-4 "proj4_UART_Engine.ngc" proj4_UART_Engine.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o proj4_UART_Engine_map.ncd proj4_UART_Engine.ngd proj4_UART_Engine.pcf 
+par -w -intstyle ise -ol high -t 1 proj4_UART_Engine_map.ncd proj4_UART_Engine.ncd proj4_UART_Engine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml proj4_UART_Engine.twx proj4_UART_Engine.ncd -o proj4_UART_Engine.twr proj4_UART_Engine.pcf -ucf IOPinAssignments.ucf 
+bitgen -intstyle ise -f proj4_UART_Engine.ut proj4_UART_Engine.ncd 
+xst -intstyle ise -ifn "F:/CECS 460/Labs/Lab 4 - Full UART/Full_UART_Engine/proj4_UART_Engine.xst" -ofn "F:/CECS 460/Labs/Lab 4 - Full UART/Full_UART_Engine/proj4_UART_Engine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IOPinAssignments.ucf -p xc3s500e-fg320-4 "proj4_UART_Engine.ngc" proj4_UART_Engine.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o proj4_UART_Engine_map.ncd proj4_UART_Engine.ngd proj4_UART_Engine.pcf 
+par -w -intstyle ise -ol high -t 1 proj4_UART_Engine_map.ncd proj4_UART_Engine.ncd proj4_UART_Engine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml proj4_UART_Engine.twx proj4_UART_Engine.ncd -o proj4_UART_Engine.twr proj4_UART_Engine.pcf -ucf IOPinAssignments.ucf 
+bitgen -intstyle ise -f proj4_UART_Engine.ut proj4_UART_Engine.ncd 
+bitgen -intstyle ise -f proj4_UART_Engine.ut proj4_UART_Engine.ncd 
+xst -intstyle ise -ifn "F:/CECS 460/Labs/Lab 4 - Full UART/Full_UART_Engine/proj4_UART_Engine.xst" -ofn "F:/CECS 460/Labs/Lab 4 - Full UART/Full_UART_Engine/proj4_UART_Engine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IOPinAssignments.ucf -p xc3s500e-fg320-4 "proj4_UART_Engine.ngc" proj4_UART_Engine.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o proj4_UART_Engine_map.ncd proj4_UART_Engine.ngd proj4_UART_Engine.pcf 
+par -w -intstyle ise -ol high -t 1 proj4_UART_Engine_map.ncd proj4_UART_Engine.ncd proj4_UART_Engine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml proj4_UART_Engine.twx proj4_UART_Engine.ncd -o proj4_UART_Engine.twr proj4_UART_Engine.pcf -ucf IOPinAssignments.ucf 
+bitgen -intstyle ise -f proj4_UART_Engine.ut proj4_UART_Engine.ncd 
+xst -intstyle ise -ifn "F:/CECS 460/Labs/Lab 4 - Full UART/Full_UART_Engine/proj4_UART_Engine.xst" -ofn "F:/CECS 460/Labs/Lab 4 - Full UART/Full_UART_Engine/proj4_UART_Engine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IOPinAssignments.ucf -p xc3s500e-fg320-4 "proj4_UART_Engine.ngc" proj4_UART_Engine.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o proj4_UART_Engine_map.ncd proj4_UART_Engine.ngd proj4_UART_Engine.pcf 
+par -w -intstyle ise -ol high -t 1 proj4_UART_Engine_map.ncd proj4_UART_Engine.ncd proj4_UART_Engine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml proj4_UART_Engine.twx proj4_UART_Engine.ncd -o proj4_UART_Engine.twr proj4_UART_Engine.pcf -ucf IOPinAssignments.ucf 
+bitgen -intstyle ise -f proj4_UART_Engine.ut proj4_UART_Engine.ncd 
