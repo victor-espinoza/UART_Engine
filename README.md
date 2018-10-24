@@ -1,5 +1,5 @@
-# Lab_4_Full_UART
 Project Overview:   
+
 Fully functional Universal Asynchronous Receiver/Transmitter Interface using Verilog and Assembly.    
       
 The SOC is using a Universal Asynchronous Receiver Transmitter (UART) interface to receive and transmit data. The user sets up an agreed upon connection with the SOC and then opens up a terminal window. Upon reset, a banner is displayed and so is a command prompt (*>). The user can then enter a character on the keyboard and its data is sent to the PicoBlaze (an 8-bit microcontroller) to process the data.   
